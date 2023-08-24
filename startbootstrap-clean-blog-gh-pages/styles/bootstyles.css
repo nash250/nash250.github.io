@@ -1,0 +1,40 @@
+.navigation {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 18px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #dddddd;
+}
+
+.tableau {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: #111111;
+}
+
+.custombackground {
+    background-image: url('../images/background.png');
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+}

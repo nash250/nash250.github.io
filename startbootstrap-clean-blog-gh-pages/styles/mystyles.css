@@ -1,0 +1,72 @@
+body {
+    color: aqua;
+}
+
+.normal {
+    text-decoration: none;
+}
+
+.bold {font-weight: bold;}
+
+.resumeheader {
+    font-weight: bold;
+    font-style: normal;
+}
+
+li {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.me {
+    padding: 20px;
+    float: right;
+}
+
+.justify {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.marginauto {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+.text {
+    color: white;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2e86de;
+    color: rgb(255, 255, 255);
+    width: 99vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 4rem 2.5rem 0rem 2.5rem;
+}
+
+button.confetti { background:none; border:none;     display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap; }
